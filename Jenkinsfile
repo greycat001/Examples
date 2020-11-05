@@ -10,4 +10,7 @@ node {
     stage ('Test'){
         echo "We are in Test stage."
     }
+    stage ('Deploy'){
+        echo "We are in Deploy stage."
+    }
 } 
